@@ -1,0 +1,170 @@
+/*------------------------------ Fonts Links -----------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+/* ----------header Styles ----------*/
+nav {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h3 {
+  margin-left: 60px;
+}
+nav .menu-bar {
+  margin-right: 60px;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #3a3a3a;
+}
+nav .space {
+  margin-right: 20px;
+  color: #3a3a3a;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*--------------------------- First-View Style--------------------------- */
+.container {
+  width: 900px;
+  padding: 30px 0 0;
+  margin-top: 21px;
+}
+.over-view {
+  display: flex;
+  align-items: center;
+}
+.text-view {
+  color: #3a3a3a;
+}
+.text-view .first-heading {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.text-view .intro-speech {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.btn-style {
+  background: #e02c6d;
+  border-radius: 41px;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+}
+.fa-arrow-right {
+  margin-left: 5px;
+}
+.gap-top {
+  margin-top: 100px;
+}
+.img-view img {
+  width: 350px;
+  height: 300px;
+}
+.company-img img {
+  margin: 15px;
+}
+/*--------------------- ---Popular Collections Styles------------------------ */
+.container-2 {
+  width: 700px;
+  margin-top: 45px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+.product {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 3px rgb(233, 227, 227);
+}
+.product img {
+  width: 220px;
+  height: 200px;
+}
+.product .product-title {
+  font-size: 22px;
+  margin: 5px;
+}
+.product .product-price {
+  font-size: 16px;
+  margin: 5px;
+  font-weight: 200;
+}
+.product .product-info {
+  font-size: 14px;
+  color: rgb(255, 217, 0);
+}
+.product .rateing {
+  color: #5e6366;
+  font-weight: 700;
+  font-size: 12px;
+}
+.product .product-available {
+  margin: 2px;
+  font-size: 10px;
+}
+.page-hints {
+  text-align: end;
+  color: #e02c6d;
+  margin-top: 50px;
+  margin-right: -50px;
+}
+/*----------------- --------------Gear Parts Styles --------------------------*/
+.half-width {
+  width: 850px;
+  margin: 50px 0 70px;
+  display: flex;
+  justify-content: center;
+}
+.gear-img img {
+  width: 300px;
+  height: 200px;
+  margin-right: 70px;
+}
+.gear-heading {
+  font-size: 30px;
+  margin: 15px 0 15px;
+}
+.gear-detail {
+  font-size: 12px;
+}
+footer {
+  background-color: #0d111e;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+footer h2 {
+  margin-bottom: 3px;
+}
+footer p {
+  font-size: 10px;
+  margin-top: 0px;
+}
+.social-icons .pad {
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #3a3a3a;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
